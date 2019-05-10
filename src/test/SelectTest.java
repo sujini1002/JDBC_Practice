@@ -25,7 +25,7 @@ public class SelectTest {
 			stmt = conn.createStatement();
 			
 			//4.SQL문 실행
-			String sql = "select no, name from department";
+			String sql = "select no, name from author";
 			rs = stmt.executeQuery(sql);
 
 			//5. 결과 가져오기
